@@ -26,7 +26,7 @@ if(is_file($img_url)){$img=$img_url;}
 $img_url="eyecatch/$row[code].gif";
 if(is_file($img_url)){$img=$img_url;}
 
-if(empty($img)){$img="eyecatch/0_eye.png";}
+if(empty($img)){$img="eyecatch/catch.jpg";}
 
 $cate=$cate_list[$row['cate']];
 list($date)=explode(" ",$row['date']);
